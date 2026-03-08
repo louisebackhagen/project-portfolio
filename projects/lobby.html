@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lobby | Louise Portfolio</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container nav-inner">
+        <h1 class="logo">Louise</h1>
+        <nav>
+          <a href="../index.html#about">About</a>
+          <a href="../index.html#projects">Projects</a>
+          <a href="../index.html#contact">Contact</a>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" type="button">
+            <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <circle cx="12" cy="12" r="4"></circle>
+              <path
+                d="M12 2v2.5M12 19.5V22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M2 12h2.5M19.5 12H22M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"
+              ></path>
+            </svg>
+            <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a7 7 0 1 0 9.8 9.8Z"></path>
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="project-page container">
+      <a class="project-back" href="../index.html#projects">← Back to projects</a>
+      <div class="project-hero">
+        <img src="../images/projects/lobby.png" alt="Lobby project visual" />
+      </div>
+      <h1>Lobby</h1>
+      <div class="project-content">
+        <div class="intro-stack" aria-label="Project tools">
+          <span>2024</span>
+          <span>Redesign</span>
+          <span>User Research</span>
+          <span>Interactive Prototyping</span>
+          <span>User Testing</span>
+          <span>Figma</span>
+          <span>CSS</span>
+        </div>
+
+        <h3>Challenge</h3>
+        <p>
+          The Lobby is the first view users encounter when logging into TeamEngine. Previously, the page consisted of a
+          simple text based list of portals, access to basic settings, and a basic search function.
+        </p>
+        <p>
+          As TeamEngine evolved, this entry experience no longer reflected the product’s capabilities. It lacked
+          clarity, scalability, and strategic value. The challenge was to transform the Lobby from a static navigation
+          page into a structured and dynamic hub that could support multiple user needs while aligning with the modern
+          TeamEngine design.
+        </p>
+        <p>
+          The goal was to improve clarity, introduce new functionality, reduce dependency on customer support, and
+          create a stronger first impression.
+        </p>
+
+        <h3>Process</h3>
+        <p>
+          <strong>Define:</strong> Together with another designer, we initiated the project with a focus group to
+          identify key pain points, missing functionality, and what users considered most important in their daily
+          workflows. We conducted design research before moving into prototyping to better understand dashboard
+          patterns, navigation models, and self service structures. Insights were translated into clear user stories and
+          a structured requirement list to align product, business, and user needs.
+        </p>
+        <p>
+          <strong>Ideate:</strong> Based on research findings, we defined a new three tab structure consisting of
+          Portals, Calendar, and Admin. We explored multiple layout directions and navigation concepts to create a
+          centralized control hub rather than a simple link list. Early wireframes and the requirement specification
+          were presented to stakeholders to ensure alignment before moving forward.
+        </p>
+        <p>
+          <strong>Prototype:</strong> We began developing high fidelity sketches to establish layout, hierarchy, and
+          visual clarity. Throughout the process, simplified sketches were shared with the focus group to gather early
+          feedback and validate direction. We then finalized the high fidelity designs with full interaction flows and
+          considered translations continuously to ensure clarity across languages and markets.
+        </p>
+        <p>
+          <strong>Test:</strong> Conducted moderated lab testing on the high fidelity prototypes. The sessions focused
+          on navigation clarity, admin comprehension, and overall first impression. Feedback provided valuable insights
+          into labeling, hierarchy, and usability improvements.
+        </p>
+        <p>
+          <strong>Iterate:</strong> Refined filtering behavior, improved visual hierarchy in the admin overview, and
+          clarified the connection between meetings and portals in the calendar. Final high fidelity designs were
+          completed and prepared for development handoff.
+        </p>
+
+        <h3>Delivery & Impact</h3>
+        <p>
+          The Lobby evolved from a simple text list into a centralized control hub structured around three main tabs:
+          Portals, Calendar, and Admin.
+        </p>
+        <p>
+          <strong>Improved Multi Portal Clarity:</strong> Users managing multiple portals gained clearer navigation,
+          better filtering options, and stronger contextual understanding of where meetings and content belonged.
+        </p>
+        <p>
+          <strong>Admin Self Service:</strong> Administrators received a comprehensive overview of portal storage,
+          member count, and access management. They could independently manage add ons such as additional storage, video
+          conferencing, board evaluation, multi factor authentication, and other services. This significantly reduced
+          manual handling by customer support and increased customer autonomy.
+        </p>
+        <p>
+          <strong>Integrated Communication Channel:</strong> A news section was introduced in the second version of
+          Lobby, enabling TeamEngine to communicate maintenance updates and new feature releases directly within the
+          product.
+        </p>
+        <p>
+          <strong>Modernized Login Experience:</strong> The outdated login interface was redesigned to match the
+          portal’s design system, creating a cohesive and modern first impression aligned with the overall product
+          experience.
+        </p>
+        <p>
+          <strong>Scalable Foundation:</strong> The three tab structure established a flexible and scalable framework,
+          allowing the Lobby to evolve alongside future product expansion.
+        </p>
+      </div>
+      <div class="project-nav">
+        <a href="reduce-reuse-recycle.html">← Previous</a>
+        <a href="meeting-zone.html">Next →</a>
+      </div>
+    </main>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>
